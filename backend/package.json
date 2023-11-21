@@ -1,0 +1,26 @@
+{
+  "name": "exemplo-vue-backend",
+  "version": "1.0.0",
+  "description": "Apenas um exemplo de como usar um backend Node.js em conjunto com um Frontend em Vue 3 para um amigo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node-dev server.js"
+  },
+  "keywords": [
+    "exemplo",
+    "vue",
+    "nodejs"
+  ],
+  "author": "Karlos Warney",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^7.0.1",
+    "node-dev": "^8.0.0"
+  }
+}
